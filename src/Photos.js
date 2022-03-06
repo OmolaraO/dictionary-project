@@ -1,7 +1,13 @@
 import React from "react";
 
-export default function Photos() {
+export default function Photos(props) {
+if(props.photos) {
 return (
-    "Hello from Photos"
+<section>
+    
+</section>
 )
+    } else {
+        return null;
+    }
 }
