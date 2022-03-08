@@ -8,7 +8,7 @@ return (
 {props.photos.map(function(photo, index){
 return (
     <div className="col" key={index}>
-  <img src={photo.src.medium} className="img-fluid" />
+  <img src={photo.src.medium} className="img-fluid" alt="" />
 </div>
  );
 })}
